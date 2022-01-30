@@ -1,22 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Image Effect</h2>
+    <hr>
+    <ImageAnimation/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ImageAnimation from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ImageAnimation
   }
 }
 </script>
 
 <style>
+body{
+  padding: 0;
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
